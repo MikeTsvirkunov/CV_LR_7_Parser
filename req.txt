@@ -11,3 +11,4 @@ pillow
 torchvision
 setuptools
 requests
+boto3

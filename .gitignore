@@ -164,8 +164,6 @@ data/
 json_data/
 models/
 google-chrome-stable_114.0.5735.90-1_amd64.deb
-links_jsons/
-resume_jsons/
 .aws/
 .vscode/
 images/
