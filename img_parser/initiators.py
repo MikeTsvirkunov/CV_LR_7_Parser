@@ -9,11 +9,11 @@ def driver_initiation():
     driver_path = FilePathes.driver_path
     options = webdriver.ChromeOptions()
     options.page_load_strategy = 'none'
-    # options.add_argument('--no-sandbox')
-    # options.add_argument('--headless')
-    # options.add_argument('--start-maximized')
-    # options.add_argument('--disable-gpu')
-    # options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--headless')
+    options.add_argument('--start-maximized')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--ignore-ssl-errors=yes')
     options.add_argument('--ignore-certificate-errors')
     service = webdriver.ChromeService(executable_path=driver_path)
