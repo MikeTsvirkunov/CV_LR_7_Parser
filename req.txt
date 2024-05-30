@@ -1,0 +1,13 @@
+selenium
+bs4
+numpy
+pandas
+tqdm 
+python-ioc 
+sentencepiece
+python-dotenv
+torch
+pillow
+torchvision
+setuptools
+requests
